@@ -1,0 +1,34 @@
+{{>layout/header}}
+
+<h1>코인 전송</h1>
+
+<div class="col-md-12">
+    <div class="col-md-4">
+        <form>
+            <div class="form-group">
+                <label for="title">amount</label>
+                <input type="text" class="form-control" id="title" placeholder="Amount을 입력하세요">
+            </div>
+            <div class="form-group">
+                <label for="author">memo</label>
+                <input type="text" class="form-control" id="author" placeholder="memo를 입력하세요">
+            </div>
+            <div class="form-group">
+                <label for="author">내 accountId </label>
+                <input type="text" class="form-control" id="author" placeholder="MyAcocountId를 입력하세요">
+            </div>
+            <div class="form-group">
+                <label for="author">내 privateKey</label>
+                <input type="text" class="form-control" id="author" placeholder="MyPrivateKey를 입력하세요">
+            </div>
+            <div class="form-group">
+                <label for="content">상대방 accountId</label>
+                <textarea class="form-control" id="content" placeholder="상대방 AccountId을 입력하세요"></textarea>
+            </div>
+        </form>
+        <a href="/" role="button" class="btn btn-secondary">취소</a>
+        <button type="button" class="btn btn-primary" id="btn-save">전송</button>
+    </div>
+</div>
+
+{{>layout/footer}}
